@@ -1,0 +1,185 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+html, body{
+    color: white; font-family: "Roboto", sans-serif; font-weight: 300;
+    line-height: 1.4; scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.Top_bar{
+    width: 100%; padding: 22px; background: #270082;
+    display: flex; flex-direction: row; align-items: center;
+    justify-content: space-around;
+    position: fixed; z-index: 1;
+}
+
+.Top_bar ul{
+    display: flex; flex-direction: row; gap: 2rem;
+    list-style-type: none; 
+}
+
+li{
+    color: white; 
+}
+
+.Top_bar ul li a{
+    color: white; text-decoration: none;
+}
+
+.Top_bar ul li a:hover{
+    border-bottom: 2px solid white; padding-bottom: 4px;
+}
+
+.Logo{
+    font-size: 30px; font-weight: 600;
+}
+
+.container{
+    background-image: url(images/hero_image.png);
+    background-size: cover; background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh; text-align: center; place-items: center;
+}
+
+.container h1{
+    font-size: 96px;
+}
+
+.container h3{
+    font-size: 32px;
+}
+
+.hero_section .container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.hero_section .container{
+    overflow: hidden;
+    display: flex; align-items: center; justify-content: center;
+}
+
+.Music_Icon{
+    display: flex; flex-direction: row; align-items: center; gap: 6px;
+    font-size: 20px;
+}
+
+.music_section .container_2{
+    display: flex; flex-direction: column; color: #fff;
+    justify-content: center; align-items: center;
+    gap: 30px; 
+}
+
+.music_section{
+    padding-top: 50px;
+    background: #281154;
+}
+
+.red_btn{
+    cursor: pointer;
+    background: #dc0000; color: white;
+    border: none; padding: 10px 12px;
+    transition: background 0.2s ease;
+}
+
+.red_btn:hover{
+    background: #be0b0b; 
+}
+
+.blue_btn {
+    cursor: pointer; background: #270082;
+    color: white; padding: 10px 20px;
+    border: none; margin: 0 auto;   
+    display: block;   
+}
+.ipad_img{
+    position: relative; margin-top: -400px; top: 400px;
+}
+
+.video_section{
+    margin-top: 500px; display: flex; flex-direction: column;
+    text-align: center;
+}
+
+.video_section .container_3{
+    display: flex; flex-direction: column;
+    gap: 50px;
+}
+
+.video_section .container_3 h3{
+    color: black;
+}
+
+.video_section .container_3 p{
+    color: black;
+}
+
+.container_4{
+    margin-top: 45px;
+    text-align: center;
+    background-image: url(images/video.png);
+    padding-top: 280px; padding-bottom: 430px;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.gift_section .container_5{
+    margin-top: 80px; color: black;
+    display: flex; flex-direction: row; align-items: center;
+    justify-content: center; text-align: center; gap: 60px;
+}
+
+.gift_info{
+    display: flex; flex-direction: column; text-align: left;
+    gap: 20px;
+}
+
+.blue_btn2{
+    cursor: pointer; background: #270082;
+    color: white; padding: 10px 18px;
+    border: none;    
+    display: block;   
+}
+
+.line{
+    padding-bottom: 10px;
+    border-bottom: solid 1px grey;
+}
+
+.footer_section .container_6{
+    background: #1b0058;
+    margin-top: 70px; display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%; 
+    padding: 40px 70px; 
+    max-width: 2000px;
+    display: flex; justify-content: space-evenly
+}
+
+.footer_info h4{
+    padding-bottom: 8px; border-bottom: solid 1px white; 
+    margin-bottom: 10px; 
+}
+
+.footer_info{
+    display: flex; flex-direction: column;
+}
+
+.footer_info ul{
+    list-style: none; padding-left: 0; margin-top: 10px;
+}
+
+.footer_info ul li{
+    margin: 6px 0;
+}
+
+.lower_footer{
+    background: #270082; text-align: center; padding: 20px; 
+}
+
+.footer_info ul li{
+    font-weight: 300; 
+}
